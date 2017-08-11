@@ -36,7 +36,7 @@ while running do
 	
 		print("\n\n\n\n\n\n\n\n\n\n\n")
 		tempspot = tempspot+1
-		print(tempspot..":"..tokens[tempspot])
+		print(tokens[tempspot])
 		tempspot = tempspot+1
 		tempspot = tempspot+1
 		
