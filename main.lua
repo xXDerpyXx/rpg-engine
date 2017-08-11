@@ -38,7 +38,6 @@ while running do
 		tempspot = tempspot+1
 		print(tokens[tempspot])
 		tempspot = tempspot+1
-		tempspot = tempspot+1
 		
 		local optionCount = 0
 	repeat

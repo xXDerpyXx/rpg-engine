@@ -7,7 +7,6 @@ working like this!
 ```
 prompt jump number
 statement
-option count
 option 1
 where to jump
 . . .
@@ -23,10 +22,6 @@ then is the statement itself, what gets posted.
 
 `statement`
 
-then under that is how many options, in other words, how many differnt choices the player is able to make.
-
-`option count`
-
 then after is the list of options, and where they lead, if anywhere.
 ```
 option 1
@@ -38,7 +33,6 @@ then just end it with an end
 ```
 prompt 5
 you can head north or east
-2
 north
 20
 east
