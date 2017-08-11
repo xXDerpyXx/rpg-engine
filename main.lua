@@ -12,7 +12,9 @@ end
 
 print("file name:")
 input = io.read("*line")
-
+if string.sub(input,-4) ~= ".txt" then
+	input = input..".txt"
+end
 local story = input
 local file = io.open(story,"r")
 local rawStory = file:read("*all")
