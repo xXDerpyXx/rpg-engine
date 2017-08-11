@@ -51,5 +51,8 @@ end
 to end a story at an option you do
 `storyend`
 
+### Usage
+you may use and distribute this, please leave a link or credit to here, thank you <3
+
 
 
