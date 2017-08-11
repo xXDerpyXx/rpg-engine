@@ -1,4 +1,4 @@
-1
+prompt 1
 what do you want to test next?
 3
 ending story?
@@ -9,7 +9,7 @@ or recursion?
 1
 end
 
-2
+prompt 2
 welcome to part 2, do you want to return to 1?
 2
 yes!
