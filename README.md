@@ -5,7 +5,7 @@ This engine has a simple "script" language, usable to write scripts and stories!
 pretty simple line-by-line sytem.
 working like this!
 ```
-jump number
+prompt jump number
 statement
 option count
 option 1
@@ -36,7 +36,7 @@ then just end it with an end
 `end`
 ### Example
 ```
-5
+prompt 5
 you can head north or east
 2
 north

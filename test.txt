@@ -1,1 +1,19 @@
+1
+what do you want to test next?
+3
+ending story?
+endstory
+part 2?
+2
+or recursion?
+1
+end
 
+2
+welcome to part 2, do you want to return to 1?
+2
+yes!
+1
+no!
+endstory
+end
