@@ -10,8 +10,11 @@ function trim(s)
   return s:match'^()%s*$' and '' or s:match'^%s*(.*%S)'
 end
 
-local story = "test"
-local file = io.open(story..".txt","r")
+print("file name:")
+input = io.read("*line")
+
+local story = input
+local file = io.open(story,"r")
 local rawStory = file:read("*all")
 file:close()
 
