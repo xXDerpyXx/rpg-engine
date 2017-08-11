@@ -1,5 +1,3 @@
-# rpg-engine
-# rpg-engine
 # Lua Text Based RPG Engine
 ### Introduction
 This engine has a simple "script" language, usable to write scripts and stories!
