@@ -17,7 +17,7 @@ file:close()
 
 local tokens = splitByLines(rawStory)
 
-print(rawStory)
+--print(rawStory)
 
 local running = true
 local prompt = 1
@@ -34,7 +34,7 @@ while running do
 	local options = {}
 	local outcomes = {}
 	
-	
+		print("\n\n\n\n\n\n\n\n\n\n\n")
 		tempspot = tempspot+1
 		print(tempspot..":"..tokens[tempspot])
 		tempspot = tempspot+1
@@ -47,6 +47,7 @@ while running do
 		print(optionCount..":"..tokens[tempspot])
 		tempspot = tempspot+1
 		table.insert(outcomes,tokens[tempspot])
+		--print(optionCount..":"..tokens[tempspot])
 		tempspot = tempspot+1
 	until tokens[tempspot] == "end"
 	input = ""
@@ -54,7 +55,8 @@ while running do
 		input = io.read("*line")
 	end
 	prompt = outcomes[tonumber(input)]
-	if options[tonumber(input)] == "endstory" then
+	if prompt == "endstory" then
 		running = false
+		break
 	end
 end
