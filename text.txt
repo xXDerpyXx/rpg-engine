@@ -1,0 +1,47 @@
+prompt 1
+what is this? a tutorial for the engine made IN THE ENGINE!
+what?
+2
+rad! how do i get started!
+3
+end
+
+prompt 2
+ah, just a tutorial on how to use the engine in its current state
+cool, well, how do I use this engine?
+3
+end
+
+prompt 3
+first things first, to make a sorta prompt, something to show a question or statement like this one you use prompt [number], prompt 1 is always first
+can I use words instead of that number?
+4
+cool! how do I actually write the words in my statement?
+5
+end
+
+prompt 4
+you can use a single word string, NO SPACES! but, in most situations atleast, you can
+return to last prompt
+3
+end
+
+prompt 5
+good question, you just add your statement on the next line after naming the prompt
+but how do I make these options?
+6
+end
+
+prompt 6
+easy peasy! you just write the option's text, then the prompt it goes to on the next line
+how do I end my story though?
+7
+end
+
+prompt 7
+just replace the prompt name after your option with "endstory", that will end the program
+go back to start
+1
+end tutorial
+endstory
+end
